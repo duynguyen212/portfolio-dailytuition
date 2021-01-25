@@ -1,0 +1,334 @@
+/* import CSS variables */
+@import url('_variables.css');
+
+/* navigation */
+.header-area .main-menu .navbar .navbar-brand {
+	margin-left: 5rem;
+}
+
+/*.header-area .main-menu .navbar {
+	padding: 1rem 10rem;
+}*/
+
+.header-area .main-menu .nav-item .nav-link {
+	font: normal 500 15px/2px var(--roboto);
+	text-transform: uppercase;
+	padding: 1.7rem;
+	color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a {
+	background: var(--gradient-color);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+	background: var(--gradient-color);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+/* end-of-navigation */
+
+/* Banner Area */
+.site-main .site-banner {	
+	background-position: 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+	padding-top: 35%;
+	font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+	content: '';
+	height: 2px;
+	width: 18vw;
+	background: #000;
+	display: inline-block;
+	margin-left: 5%;
+	transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+	font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+	font-size: 1.4rem;
+}
+
+.site-main .site-banner .site-button {
+	margin-top: 3rem;
+}
+
+.site-main .site-banner .banner-image > img {
+	padding: 7rem 0;
+	width: 90rem;
+} 
+/* End of Banner Area */
+
+/* About Area */
+.about-area {
+	padding: 8rem 5rem;
+}
+
+.about-area .about-title h2 > span {
+	display: block;
+	font: normal bold 49px/60px var(--roboto);
+	letter-spacing: 21px;
+}
+
+.about-area .about-title .paragraph > p {
+	padding: 0.4rem 0;
+}
+
+/* End of About Area */
+
+/* Brand Area */
+.site-main .brand-area {
+	padding: 1rem 10rem;
+	margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+	display: flex;
+	justify-content: center;
+
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+	border: 1px solid var(--border-color);
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 0.9rem 0;
+	width: 180px;
+	height: 100px;
+	cursor: pointer;
+	transition: transform .4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+	width: 50%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+	box-shadow: var(--box-shadow);
+	transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img {
+	filter: brightness(0.15);
+}
+
+.site-main .brand-area .experience-area {
+	padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span {
+	display: block;
+}
+
+.site-main .brand-area .experience-area .years-area {
+	background: url('../images/client-info-bg.png') no-repeat 45px 20px;
+	padding: 2rem 0;
+	width: 40rem;
+	height: 18rem;
+	padding-left: 8rem;
+	position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel {
+	position: absolute;
+	left: 190px;
+	top: 0;
+	background: #e029290a;
+	z-index: -1;
+	width: 400px;
+	height: 400px;
+}
+
+.site-main .brand-area .experience-area .years-area .years {
+	font-weight: 600;
+	font-size: 84px;
+	line-height: 40px;
+	font-family: var(--roboto);
+	color: var(--primary-color);
+}
+
+.site-main .brand-area .experience-area .call-area {
+	padding-left: 10rem;
+}
+/* End of Brand Area */
+
+/* Services Area */
+.site-main .services-area {
+	padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+	padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+	font-size: 35px;
+}
+
+.site-main > .services-area .services {
+	background: rgba(248, 252, 252, 0.973);
+	padding: 2rem 0;
+	width: 16rem;
+	margin: 5rem 0.5rem;
+	transition: box-shadow 0.4s ease;
+}
+
+.site-main > .services-area .services:hover {
+	box-shadow: var(--box-shadow);
+}
+/* End of Services Area */
+
+/* Projects Area */
+.site-main .projects-area {
+	padding: 4rem 0;
+}
+
+.site-main .projects-area .button-group button {
+	background: transparent;
+	border: none;	
+	font-family: var(--roboto);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130px;
+	text-transform: uppercase;	
+}
+
+.site-main .projects-area .button-group button + button {
+	padding-left: 2rem;
+}
+
+.site-main .projects-area .grid .our-project > .title h4 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 12px;
+	font-family: var(--roboto);
+}
+
+.site-main .projects-area .grid .our-project .img a:hover img {
+	filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End of Projects Area */
+
+/* About Us */
+.site-main .about-area .about-title p {
+	padding: 1rem 7rem;
+}
+
+.site-main .about-area .client {
+	background: #ffffff10;
+	box-shadow: var(--box-shadow);
+	margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img {
+	padding: 2rem;
+}
+
+.site-main .about-area .client .about-client {
+	padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4 {
+	font-weight: 500;
+	font-family: var(--roboto);
+	font-size: 21px;
+	line-height: 20px;
+}
+
+.site-main .about-area .client .about-client p{
+	font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item {
+	display: flex;
+	justify-content: center;
+	padding: 0 1.5rem;
+}
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+	background: var(--primary-color);
+	width: 12px;
+	height: 12px;
+}
+/* End of About Us */
+
+/* Subscribe */
+.site-main .subscribe-us-area .subscribe {
+	background: url('../images/subscribe-bg.png') no-repeat;
+	padding: 10rem 0;
+	margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe-title h4 {
+	font-size: 30px;
+	line-height: 30px;
+	font-family: var(--roboto);
+	font-weight: 700;
+	color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe-title p {
+	color: whitesmoke;
+	padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+	width: 400px;
+	padding: 0.7rem;
+	border: 1px solid whitesmoke;
+	background: transparent;
+	color: white;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input:focus {
+	outline: none;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder {
+	color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit button {
+	background: whitesmoke;
+	color: black;
+	padding: 0.7rem 2rem;
+	border: none;
+}
+/* End of Subscribe */
+
+/* Footer Area */
+footer .footer-area {
+	padding: 5rem 0;
+	background: url('../images/footer-bg.png') no-repeat;
+}
+
+footer .footer-area .social h5 {
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 30px;	
+	font-family: var(--roboto);
+}
+
+.footer-area .social a > i {
+	font-size: 26px;
+	color: var(--border-color);
+	padding: 2rem;
+}
+
+.footer-area .social a:hover > i {
+	color: var(--primary-color);
+}
+
+
+/* End of Footer Area */
